@@ -1,0 +1,162 @@
+@charset "ISO-8859-1";
+body { 
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0 auto;
+  width:80%;
+  background: rgb(42,23,44);
+}
+
+#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+#tableRow {
+	display: table-row;
+}
+
+div#totale {
+    display: inline-block;
+}
+
+#pref{
+	      background-color: #efe5d0;
+    border-style: groove;
+    border-radius: 15px;
+    width: 1200px;
+    padding-bottom: 100px;
+    margin-left: 10px;
+    padding-top: 70px;
+    padding-left: 29px;
+    margin-bottom:20px;
+    color: #954b4b;
+}
+
+#titoloP{
+	text-align: center;
+}
+
+#infoPref{
+	padding-bottom: 20px;
+}
+#info{
+	font-family:sans-serif;
+	font-size:large;
+	color:#954b4b;
+    
+    background-color: #efe5d0;
+    padding: 10px;
+    vertical-align: top;
+    border-style: groove;
+    border-radius: 15px;
+    width: 1200px;
+    padding-bottom: 100px;
+}
+
+#generalita{
+	text-align: center;
+}
+
+a{
+	color:#954b4b;
+}
+td{
+	width: 900px;
+	text-align: center;
+}
+
+.recens{
+	
+	font-family:sans-serif;
+	font-size:large;
+	color:#954b4b;
+    background-color: #efe5d0;
+    padding: 10px;
+    vertical-align: top;
+    border-style: groove;
+    border-radius: 15px;
+    width: 1200px;
+    padding-bottom: 100px;
+    margin-bottom: 10px;
+    border: medium black;
+    list-style-type: none;
+     margin-left: 10px;
+  
+    
+
+}
+
+li{
+	margin-bottom: 20px;
+	margin-left:20px;
+
+}
+
+#scrittaOrd{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.recensVini{
+list-style-type: none;
+}
+
+#scrittaOrd{
+	font-weight:bold;
+	
+}
+
+.recensVini {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.nomeVino {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+.schedaVini {
+  display: flex;
+  padding: 10px;
+  width:auto;
+}
+
+.adImage {
+	height: 160px;
+	width: 100px;
+	margin: 0 15px 0 0;
+	border:1px solid #aeaeae;
+}
+
+.adBody {
+	display: inline-block;
+	flex-flow: column;
+	word-wrap:break-word;
+	width:65%;
+}
+
+.adBody:hover {
+  background: #eee;
+  cursor: pointer;
+
+  
+}
+
+div#submit {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.stellina{
+	width: 0px;
+	height: 0px;
+	float:right;
+}
+
+@media screen and (max-width: 1350px) {
+	#info{
+	
+	}
+}

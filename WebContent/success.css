@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+
+.succText{
+	
+	color:#954b4b;
+	text-align: center;
+	
+}
+
+form {
+    display: table;
+    padding-top: 10px;
+    border: thin #7e7e7e;
+    background-color: #efe5d0;
+    font-size: 20px;
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -511px;
+    margin-bottom: 100px;
+  
+}

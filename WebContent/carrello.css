@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+
+#carrello{
+	background-color: #efe5d0;
+    padding: 50px;
+    padding-left: 60px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 9px;
+    margin-bottom: 20px;
+}
+
+#prodotto{
+	padding-right: 700px;
+}
+
+h3#nome {
+    margin-top: 90px;
+    margin-left: 86px;
+}
+td#fotoNome {
+    display: -webkit-box;
+}
+
+div#continua {
+    margin-top: 25px;
+}
+
+a{
+	color: black;
+}
+
+div#totale {
+    text-align: right;
+    padding-right: 110px;
+    padding-top: 17px;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+
+th {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-right: 35px;
+}
+
+table#tavola {
+    border: dimgrey;
+    border-style: outset;
+    padding: 25px;
+}
+
+#quant{
+	text-align:center;
+	padding-right: 25px;
+}
+
+img{
+	height: 200px;
+	width: 100px;
+}
+
+@media screen and (max-width: 1380px) {
+	table#tavola {
+    border: dimgrey;
+    border-style: outset;
+    padding: 25px;
+	}
+}

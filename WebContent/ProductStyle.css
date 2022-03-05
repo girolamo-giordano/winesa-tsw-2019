@@ -1,0 +1,152 @@
+@charset "ISO-8859-1";
+
+body { 
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0 auto;
+  width:80%;
+  background: rgb(42,23,44);
+}
+
+
+.preferitiimg:hover{
+	background-image: url(foto/heartHover.png);
+}
+
+td#cambiamento{
+	display:-webkit-box;
+}
+
+#prod{
+background-color: #efe5d0;
+    padding: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 9px;
+    margin-bottom: 20px;
+
+}
+
+form#filtro {
+    padding-bottom: 40px;
+    margin-top: -65px;
+    padding-left: 19px;
+}
+
+@media screen and (max-width: 950px) {
+	#filtro{
+	display: none;
+	}
+	
+	#ordinamento{
+	display:none
+	}
+}
+
+#ordinamento{
+	    text-align: right;
+    padding-bottom: 36px;
+    margin-right: 150px;
+}
+
+#prodAdmin{
+	background-color: #efe5d0;
+    padding: 50px;
+    
+    padding-left: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 9px;
+    margin-bottom: 20px;
+}
+
+#ciao{
+	border:medium;
+	border-color: black;
+}
+
+#imgCar{
+	padding-top:5px;
+	display:inline;
+}
+
+.prodTable{
+	text-align: center;
+
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#nomeProd:first-letter{
+text-transform: uppercase;
+
+}
+#nomeProd, #prezzoProd, #quantita{
+font-family: Arial, Verdana, sans-serif;
+font-weight: bolder;
+
+}
+
+#scrittaCar{
+	text-align:center;
+	margin-bottom: 20px;
+	display: inline;
+	
+	
+}
+
+
+#acquista {
+	background-color:#efe5d0;
+	color: #fff; /* colore del testo */
+  text-decoration: none; /* eliminare la sottolineatura del testo */
+  background: #efe5d0; /* sfondo del bottone */
+  padding: .7em 1.5em; /* padding dal testo dal bordo del bottone */
+  outline: none; /*  eliminare bordo*/
+	border:thin;
+	width:170px;
+	display:table;
+	margin-bottom:60px;
+	border-radius: 10px;
+}
+
+
+#acquista:hover { background: #fff4de; } /* cambio dello sfondo al passagio del mouse */
+#acquista:active { background: #a39881; } /* cambiare lo sfondo al premere bottone   */
+ 
+
+#cancella {
+	
+	
+	width:200px;
+	display:table;
+	margin-bottom:60px;
+}
+
+fieldset {
+    /* padding-right: 95px; */
+    margin-right: 140px;
+}
+
+#ue{
+	display:-webkit-box;
+}
+
+
+table{
+	display:inline;
+}
+
+td#cambiamento{
+	padding-bottom:50px;
+}
+
+.scomparemag{
+	width: 0px;
+	height: 0px;
+	float:left;
+}
+
+

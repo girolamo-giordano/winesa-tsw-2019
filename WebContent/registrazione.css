@@ -1,0 +1,128 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0 auto;
+  width:80%;
+  background: rgb(42,23,44);
+  
+}
+
+form {
+	display: table;
+	padding-top: 10px;
+	border: thin dotted #7e7e7e;
+	background-color: #efe5d0;
+	
+	width: 400px;
+    height: 400px;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -200px;
+    margin-bottom: 100px;
+	
+}
+
+#mostra{
+	    color: #954b4b;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+div.tableRow label:first-child {
+	text-align: left;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+#provincia{
+	width: 181px;
+}
+div.tableRow > p, div.tableRow > label, div.tableRow > input, div.tableRow > select {
+	display: table-cell;
+	
+	padding: 10px;
+}
+
+#footer {
+  background-color: #675c47;
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+}
+
+.submit , .reset{
+	background:#675c47;
+  border: solid rgb(42,23,44);       /* nessun bordo */
+  color: white;        /* colore del testo    */
+  font-weight: bold;
+  margin-top:20px;
+  padding: 0;         /* padding             */
+  height: 40px;       /* altezza             */
+  width: 100px;        
+  text-align: center;
+  
+}
+
+.submit{
+	margin-right: 10px;
+	margin-left: 80px;
+}
+
+#secondoF{
+	margin-top: 30px;
+}
+
+#primoF{
+	margin-top: 30px;
+}
+
+h2#titolo{
+	color:#954b4b;
+	text-align: center;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+h4#RegLog{
+	color:#954b4b;
+	text-align: center;
+	font-style: italic;
+}
+
+a:hover{
+	color: red;
+}
+
+a{
+color:#954b4b;	
+}
+
+.rcolor{
+	color:#954b4b;
+}
+
+.error{
+	background-color: red;
+}
+
+@media screen and (max-width: 1090px) {
+	div#lright {
+    text-align: right;
+    display: grid;
+}
+#menu ul {
+    margin: 2px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+    display: grid;
+    text-align: -webkit-center;
+}
+}

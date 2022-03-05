@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+
+div#scheda {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+div#scheda {
+    background-color: #efe5d0;
+}
+
+
+
+#pulsante{
+	padding-left:230px;
+	display:flex;
+}
+
+#borderDiv{
+	
+}
+input#qty {
+    padding-left: 63px;
+    font-size: 18px;
+}
+
+li{
+	padding-bottom: 10px;
+}
+#NomePrezzo{
+	text-align: center;
+}
+
+.schemainfo {
+    font-size: 20px;
+    list-style-type: none;
+
+}
+
+table.schemainfo {
+    border: black;
+    border-bottom-style: double;
+}
+
+#fotoProd{
+	padding-left: 90px;
+}
+
+#infoProd{
+	padding-left: 30spx;
+}
+
+#NomePrezzo{
+	padding-bottom: 10px;
+	color:#954b4b;
+}
+
+#pic {
+      height: 300px;
+      width: 200px;
+
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+      transition: all 1s ease;
+}
+
+#pic:hover {
+      width: 300px;
+      height: 400px;
+}
+td {
+	padding-bottom:10px;
+	display: -webkit-box;
+}
+
+
